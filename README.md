@@ -13,7 +13,7 @@ A FastAPI + Streamlit-based machine learning project to predict a customer's **i
 - 🐳 Dockerized deployment
 
 ---
-
+<details> <summary><strong>Click to Expand Markdown</strong></summary>
 ## 📁 Project Structure
 
 insurance-fastapi/
@@ -34,7 +34,7 @@ insurance-fastapi/
 │ └── user_input.py
 
 ---
-
+</details>
 ## 🐳 Run using Docker
 
 You can run the FastAPI backend using Docker in just 2 steps:
