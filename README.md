@@ -14,7 +14,7 @@ A FastAPI + Streamlit-based machine learning project to predict a customer's **i
 
 
 
-## �� Project Structure
+##  Project Structure
 
 ```
 insurance-fastapi/
