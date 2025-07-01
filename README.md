@@ -12,11 +12,10 @@ A FastAPI + Streamlit-based machine learning project to predict a customer's **i
 - 🔗 REST API (FastAPI) + UI (Streamlit)
 - 🐳 Dockerized deployment
 
----
+
 
 ## 📁 Project Structure
-
-```
+---
 insurance-fastapi/
 ├── app.py                # FastAPI backend
 ├── model/
@@ -30,7 +29,6 @@ insurance-fastapi/
 │   ├── prediction_response.py
 │   └── user_input.py
 └── README.md
-```
 
 ---
 
