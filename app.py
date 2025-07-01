@@ -34,6 +34,6 @@ def predict_premium(data: Customer):
     try:
         prediction = predict_output(input_df)
 
-        return JSONResponse(status_code=200, content={'Result':prediction})
+        return JSONResponse(status_code=200, content=prediction)
     except Exception as e:
         return JSONResponse(status_code=500, content=str(e))
