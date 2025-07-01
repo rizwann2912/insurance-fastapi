@@ -17,22 +17,21 @@ A FastAPI + Streamlit-based machine learning project to predict a customer's **i
 ## 📁 Project Structure
 
 insurance-fastapi/
-├── app.py                # FastAPI backend
+├── app.py # FastAPI backend
+├── frontend.py # Streamlit frontend
+├── requirements.txt
+├── Dockerfile
+├── README.md
 
 ├── model/
-│   └── predict.py        # Model prediction logic
-
-├── frontend.py           # Streamlit frontend
-├── requirements.txt
-
-├── Dockerfile
+│ └── predict.py # Model prediction logic
 
 ├── config/
-│   └── city_tier.py      # City tier configuration
+│ └── city_tier.py # City tier configuration
+
 ├── schema/
-│   ├── prediction_response.py
-│   └── user_input.py
-└── README.md
+│ ├── prediction_response.py
+│ └── user_input.py
 
 ---
 
