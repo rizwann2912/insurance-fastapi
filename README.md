@@ -13,28 +13,7 @@ A FastAPI + Streamlit-based machine learning project to predict a customer's **i
 - 🐳 Dockerized deployment
 
 ---
-<details> <summary><strong>Click to Expand Markdown</strong></summary>
-## 📁 Project Structure
-
-insurance-fastapi/
-├── app.py # FastAPI backend
-├── frontend.py # Streamlit frontend
-├── requirements.txt
-├── Dockerfile
-├── README.md
-
-├── model/
-│ └── predict.py # Model prediction logic
-
-├── config/
-│ └── city_tier.py # City tier configuration
-
-├── schema/
-│ ├── prediction_response.py
-│ └── user_input.py
-
----
-</details>
+<pre lang="markdown"><code>## 📁 Project Structure ``` insurance-fastapi/ ├── app.py # FastAPI backend ├── frontend.py # Streamlit frontend ├── requirements.txt ├── Dockerfile ├── README.md ├── model/ │ └── predict.py # Model prediction logic ├── config/ │ └── city_tier.py # City tier configuration ├── schema/ │ ├── prediction_response.py │ └── user_input.py ``` </code></pre>
 ## 🐳 Run using Docker
 
 You can run the FastAPI backend using Docker in just 2 steps:
